@@ -12,7 +12,7 @@ var parseDirection = require("./paramParser").parseDirection;
 var outputPins = [];
 var inputPins = [];
 
-var sysFsPath = "/sys/devices/virtual/gpio";
+var sysFsPath = "/sys/class/gpio";
 
 function noop(){};
 
